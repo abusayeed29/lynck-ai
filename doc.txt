@@ -3,3 +3,6 @@ https://ui.shadcn.com/docs/installation/next
 npx shadcn-ui@latest add button
 
 https://clerk.com/
+https://ui.shadcn.com/docs/components/form
+npx shadcn-ui@latest add form
+npx shadcn-ui@latest add input
