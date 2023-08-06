@@ -9,6 +9,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 export async function POST(req: Request) {
+
   try {
     const { userId } = auth();
     const body = await req.json();
@@ -37,6 +38,6 @@ export async function POST(req: Request) {
     
   } catch (error) {
     console.log("[CONVERSATION_ERROR]", error);
-    return new NextResponse("Internal Error", { status: 500 });
+    return new NextResponse("Internal Error ", { status: 500 });
   }
 }
