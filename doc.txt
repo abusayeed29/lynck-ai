@@ -6,3 +6,6 @@ https://clerk.com/
 https://ui.shadcn.com/docs/components/form
 npx shadcn-ui@latest add form
 npx shadcn-ui@latest add input
+
+npm i openai
+npm i axios
