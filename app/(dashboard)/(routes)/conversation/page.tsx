@@ -41,6 +41,11 @@ const ConversationPage = () => {
 
       const response = await axios.post("/api/conversation",{
         messages: newMessages,
+      },{
+        headers: {
+          Accept: 'application/json',
+          'Access-Control-Allow-Origin': '*',
+        },
       });
                 
      setMessages((current) => [...current, userMessage, response.data]);
@@ -49,7 +54,7 @@ const ConversationPage = () => {
       
     } catch (error: any) {
 
-      //console.log(error);
+      console.log(error);
 
     } finally {
 
