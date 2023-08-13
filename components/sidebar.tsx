@@ -2,13 +2,13 @@
 
 import { cn } from "@/lib/utils";
 import {
-    Code,
-    ImageIcon,
-    LayoutDashboard,
-    MessageSquare,
-    Music,
-    Settings,
-    VideoIcon,
+  Code,
+  ImageIcon,
+  LayoutDashboard,
+  MessageSquare,
+  Music,
+  Settings,
+  VideoIcon,
 } from "lucide-react";
 import { Montserrat } from "next/font/google";
 import Image from "next/image";
@@ -76,7 +76,7 @@ const Sidebar = () => {
             <Image fill alt="Logo" src="/logo.png" />
           </div>
           <h1 className={cn("text-2xl font-bold", montserrat.className)}>
-            Lynck
+            PowerzAI
           </h1>
         </Link>
         <div className="space-y-1">
