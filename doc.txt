@@ -18,3 +18,14 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 
 OPENAI_API_KEY=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
+
+
+npm i replicate
+npm i -D prisma
+npx prisma init
+
+https://planetscale.com/
+
+npm i @prisma/client
+
+npx prisma db push
